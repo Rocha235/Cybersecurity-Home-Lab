@@ -11,12 +11,12 @@ Neste projeto serao utilizadas maquinas virtuais para simular um cenario de ataq
 
 ## Ambiente
 
-|          Componente        |      Descrição    |
-|----------------------------|-------------------|
-| Sistema Operacional (Host) |      Windows      |
-|        Virtualizador       |    VirtualBox     |
-|      Maquina Atacante      |    Kali Linux     |
-|        Maquina Alvo        |  Metasploitable 2 |
+| Componente | Descrição | 
+|------------|-----------| 
+| Sistema Operacional (Host) | Windows | 
+| Virtualizador | VirtualBox | 
+| Máquina Atacante | Kali Linux | 
+| Máquina Alvo | Metasploitable 2 |
 
 ## Configuração
 
