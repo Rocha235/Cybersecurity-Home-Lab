@@ -1,51 +1,53 @@
+# Lab 02 - Descoberta de Rede
+
+
 ## Objetivo
 
 Identificar os dispositivos ativos na rede do laboratório utilizando técnicas de reconhecimento, 
 compreendendo a importância dessa etapa antes de iniciar uma análise de segurança.
 
+
 ## Conceitos
 
 O reconhecimento é a primeira fase de um teste de segurança.
-
 Nessa etapa, o objetivo é coletar informações sobre o ambiente sem realizar ações invasivas.
-
 Uma das primeiras tarefas consiste em identificar quais dispositivos estão ativos na rede, criando um inventário inicial dos possíveis alvos.
 
 
+## Ambiente
+
+|         Componente         |     Descrição    | 
+|----------------------------|------------------| 
+| Sistema Operacional (Host) |     Windows      | 
+|         Virtualizador      |     VirtualBox   | 
+|       Máquina Atacante     |     Kali Linux   | 
+|       Máquina Alvo         | Metasploitable 2 |
+
+
+## Evidencias
+
+- Nesta seção serão adicionadas capturas de tela da configuração do ambiente e dos testes realizados
 
 ## Conceitos Aprendidos
 
 ### Endereço IPv4
-
 O endereço IPv4 identifica um dispositivo dentro de uma rede.
-
 No laboratório, o Kali Linux recebeu o endereço `192.168.56.101/24`, indicando que pertence à rede `192.168.56.0/24`.
 
 ### Descobrindo a rede local
-
 Utilizando o comando `ip route`, foi possível identificar que o Kali Linux está conectado à rede `192.168.56.0/24`.
-
 Essa informação é fundamental para definir o intervalo que será analisado durante a etapa de reconhecimento com o Nmap.
-
 O sufixo `/24` representa a máscara de rede e define quais dispositivos podem fazer parte da mesma rede local.
 
 ### Descoberta de Hosts com o Nmap
-
 O parâmetro `-sn` realiza uma varredura de descoberta de hosts (Host Discovery), permitindo identificar quais dispositivos estão ativos na rede sem realizar o escaneamento de portas.
-
 Essa abordagem é utilizada como uma etapa inicial do reconhecimento, ajudando a definir quais máquinas serão analisadas nas etapas seguintes.
 ip addr
-
 Permite visualizar as interfaces de rede e seus respectivos endereços IP.
-
 ip route
-
 Exibe a tabela de roteamento do sistema, permitindo identificar a rede à qual a máquina está conectada.
-
 nmap -sn
-
 Realiza uma descoberta de hosts ativos na rede sem executar escaneamento de portas.
-
 
 
 ## Glossario
@@ -55,17 +57,6 @@ Realiza uma descoberta de hosts ativos na rede sem executar escaneamento de port
 | Rede  | Conjunto de dispositivos que podem se comunicar entre si.         |
 | IPv4  | Endereço utilizado para identificar um dispositivo em uma rede.   |
 | CIDR  | Notação utilizada para representar a máscara de rede, como `/24`. |
-
-
-
-
-
-
-
-Evidências
-Print do ip addr.
-Print do ip route.
-Print do nmap -sn.
 
 
 
