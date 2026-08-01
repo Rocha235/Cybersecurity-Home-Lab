@@ -1,0 +1,80 @@
+# Lab 01 - Configuração do Ambiente
+
+## Objetivo
+
+Configurar um ambiente de testes seguro e isolado para realização dos proximos laboratorios de Cyersecurity.
+
+## Conceitos
+
+Um ambiente de laboratorio permite realizar testes de segurança sem colocar em risco sistemas reais.
+Neste projeto serao utilizadas maquinas virtuais para simular um cenario de ataque e defesa.
+
+## Ambiente
+
+|          Componente        |      Descrição    |
+|----------------------------|-------------------|
+| Sistema Operacional (Host) |      Windows      |
+|        Virtualizador       |    VirtualBox     |
+|      Maquina Atacante      |    Kali Linux     |
+|        Maquina Alvo        |  Metasploitable 2 |
+
+## Configuração
+
+Nesta etapa serão configuradas as maquinas virtuais para que estejam na mesma rede isolada, 
+permitindo a comunicação entre elas sem expor o ambiente a internet
+
+## Validação
+
+Serão realizados os seguintes testes:
+
+- verificar o endereço IP das maquinas.
+- Confirmar a comunicação entre elas utilizando o comando 'ping'
+
+## Evidencias
+
+- Nesta seção serão adicionadas capturas de tela da configuração do ambiente e dos testes realizados
+
+## Lições Aprendidas
+
+- Esta seção será preenchida ao final do laboratorio
+
+## Proximos Passos
+
+No final do laboratorio será realizada a descoberta da rede e identificação da maquina alvo 
+utilizando ferramentas de reconhecimento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
