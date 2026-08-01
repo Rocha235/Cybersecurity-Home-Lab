@@ -34,6 +34,29 @@ Serão realizados os seguintes testes:
 
 - Nesta seção serão adicionadas capturas de tela da configuração do ambiente e dos testes realizados
 
+## Conceitos Aprendidos
+
+### O que é o parâmetro `-sn` do Nmap?
+
+O parâmetro `-sn` realiza uma varredura de descoberta de hosts (Ping Scan), identificando quais dispositivos estão ativos na rede sem realizar o escaneamento de portas.
+
+**Quando utilizar?**
+- Identificar rapidamente quais máquinas estão online.
+- Etapa inicial de um reconhecimento de rede.
+
+**O que aprendi?**
+
+Antes de procurar portas abertas ou serviços, é importante descobrir quais hosts estão ativos. Essa abordagem torna o reconhecimento mais organizado e evita escaneamentos desnecessários.
+
+## Glossário
+
+| Termo | Significado |
+|--------|-------------|
+| Host | Qualquer dispositivo conectado à rede. |
+| Ping Scan | Técnica para descobrir quais hosts estão ativos. |
+| Nmap | Ferramenta utilizada para reconhecimento e análise de redes. |
+| ICMP | Protocolo utilizado, entre outras funções, para verificar a conectividade entre dispositivos. |
+
 ## Lições Aprendidas
 
 - Esta seção será preenchida ao final do laboratorio
