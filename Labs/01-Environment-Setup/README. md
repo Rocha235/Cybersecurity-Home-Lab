@@ -50,12 +50,12 @@ Antes de procurar portas abertas ou serviços, é importante descobrir quais hos
 
 ## Glossário
 
-| Termo | Significado |
-|--------|-------------|
-| Host | Qualquer dispositivo conectado à rede. |
+|   Termo   | Significado |
+|-----------|-------------|
+|   Host    | Qualquer dispositivo conectado à rede. |
 | Ping Scan | Técnica para descobrir quais hosts estão ativos. |
-| Nmap | Ferramenta utilizada para reconhecimento e análise de redes. |
-| ICMP | Protocolo utilizado, entre outras funções, para verificar a conectividade entre dispositivos. |
+|   Nmap    | Ferramenta utilizada para reconhecimento e análise de redes. |
+|   ICMP    | Protocolo utilizado, entre outras funções, para verificar a conectividade entre dispositivos. |
 
 ## Lições Aprendidas
 
