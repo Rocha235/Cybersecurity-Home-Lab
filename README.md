@@ -36,7 +36,7 @@ screenshots/
 | Laboratório | Status |
 |-------------|--------|
 | 01 - Configuração do Ambiente | ✅ Concluído |
-| 02 - Descoberta da Rede | 🚧 Em andamento |
+| 02 - Descoberta da Rede | ✅ Concluído |
 | 03 - Port Scanning | ⏳ Pendente |
 
 ## Objetivo
