@@ -9,3 +9,10 @@ Identificar as portas abertas da máquina Metasploitable 2 e compreender a impor
 Após identificar os dispositivos ativos na rede, o próximo passo consiste em descobrir quais serviços estão disponíveis em cada máquina.
 
 Cada serviço de rede utiliza uma porta específica para comunicação. Identificar essas portas permite compreender melhor a superfície de ataque do alvo.
+
+
+## Conceitos Aprendidos
+
+### Comando `nmap -sV`
+
+Identifica Serviço e versão.
